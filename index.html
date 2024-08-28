@@ -1,0 +1,303 @@
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFlux -</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* General body styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            background: #135D66;
+            color: #fff;
+        }
+
+        /* Header and navigation styles */
+        header {
+            background: #003C43;
+            padding: 1rem 0;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #fff;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .nav-links li {
+            margin: 0 1rem;
+        }
+
+        .nav-links a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            background: #ff4971;
+            border-radius: 5px;
+        }
+
+        .cta-button {
+            background: transparent;
+            border: solid white 1px;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button2 {
+            background: transparent;
+            border: solid white 1px;
+            color: #fff;
+            font-size: 10px;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background: #fff;
+            color: black;
+            text-decoration: none;
+        }
+
+        .cta-button2:hover {
+            background: #fff;
+            color: black;
+            text-decoration: none;
+        }
+
+        main {
+            text-align: center;
+            padding: 4rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            background: #6d9c97;
+            padding: 3rem 1rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero h1 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .hero .cta-button {
+            font-size: 1rem;
+            padding: 1rem 2rem;
+        }
+
+        
+        .hero .cta-button2 {
+            font-size: 14px;
+            padding: 0.9rem 1.5rem;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+
+        .stat {
+            flex: 1;
+            min-width: 150px;
+            margin: 1rem;
+            padding: 1rem;
+            background: #77B0AA;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .stat h2 {
+            font-size: 1.5rem;
+            color: #135D66;
+            margin-bottom: 0.5rem;
+        }
+
+        .stat p {
+            font-size: 1rem;
+        }
+
+        .navbar-nav {
+            display: flex;
+            justify-content: center;
+            flex: 1;
+        }
+
+        .pink{
+            color: #77B0AA;
+        }
+
+        footer {
+            background: #003C43;
+            color: #fff;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .social-media a {
+            margin: 0 0.5rem;
+        }
+
+        .social-media i {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand logo" href="index.html">Learn<span class="pink">Ease</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#blog">About Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#podcast">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#careers">Contacts</a></li>
+                    </ul>
+                    <a href="#contact" class="btn cta-button">Sign Up</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <h1><a href="https://cooltext.com"><img src="https://images.cooltext.com/5706444.png" width="1043" height="43" alt=""LearnEase: AI on Tertiary Education in the 21st Century"" /></a></h1>
+            <p><i><a href="https://cooltext.com"><img src="https://images.cooltext.com/5706446.png" width="604" height="27" alt="AI Chatbot for Academic Purposes" /></a></i></p>
+            <a href="readmore.html" class="cta-button2">Read more &nbsp;<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="row stats mt-4">
+            <div class="col-md-4">
+                <div class="stat">
+                    <h2><B>AI Chatbot Expert</B></h2>
+                    <p>Leading AI Chatbot Solutions for Education</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat">
+                    <h2><B>Top Innovator</B></h2>
+                    <p>Recognized for Cutting-Edge Chatbot Research</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat">
+                    <h2><B>Top Educator</B></h2>
+                    <p>Dedicated to Transforming Learning with AI</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat">
+                    <h2><B>Global Reach</B></h2>
+                    <p>AI Chatbots Deployed in 20+ Countries</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat">
+                    <h2><B>500K Users</B></h2>
+                    <p>Serving Over Half a Million Students in the Philippines  </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="stat">
+                    <h2><B>10+ Years</B></h2>
+                    <p>Decades of Expertise in Educational AI with Reliable Information</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <br>    <br>    <br>w
+    <footer>
+        <div class="container text-center py-4">
+            <p>&copy; 2024 EduFlux. All Rights Reserved.</p>    
+            <div class="social-media mt-2">
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="module">
+        import Chatbox from 'https://cdn.jsdelivr.net/npm/@chaindesk/embeds@latest/dist/chatbox/index.js';
+      
+        const widget = await Chatbox.initBubble({
+          agentId: 'cm0cbumua072mvce6tfjkrl36',
+          
+          // optional 
+          // If provided will create a contact for the user and link it to the conversation
+          contact: {
+            firstName: 'John',
+            lastName: 'Doe',
+            email: 'customer@email.com',
+            phoneNumber: '+33612345644',
+            userId: '42424242',
+          },
+          // optional
+          // Override initial messages
+          initialMessages: [
+            'Hello Georges how are you doing today?',
+            'How can I help you ?',
+          ],
+          // optional
+          // Provided context will be appended to the Agent system prompt
+          context: "The user you are talking to is John. Start by Greeting him by his name.",
+        });
+      
+        // open the chat bubble
+        widget.open();
+      
+        // close the chat bubble
+        widget.close()
+      
+        // or 
+        widget.toggle()
+      </script>
+</body>
